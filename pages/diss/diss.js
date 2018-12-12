@@ -36,6 +36,11 @@ Page({
   onShow: function () {
 
   },
+  onUnload: function(){
+    this.setData({
+      page:1
+    })
+  },
 /**
    * 上拉刷新
    */
