@@ -1,0 +1,21 @@
+/* pages/video/video.wxss */
+/*中间描述文字样式*/
+.centerContent{
+    margin-top: 20rpx;
+    width: 100%;
+    height: 600rpx;
+  
+  }
+
+.vclssView{
+    text-align: center
+}
+.vclss{
+    text-align: center;
+    width: 100%;
+}
+
+.closebtn{
+    width: 45rpx;
+    height: 45rpx;
+}

@@ -1,0 +1,14 @@
+/* pages/diss/diss.wxss */
+/*中间描述文字样式*/
+.centerContent{
+    margin-top: 20rpx;
+    width: 100%;
+    height: 600rpx;
+  
+  }
+
+  .sex{
+      width: 20rpx;
+      height: 20rpx;
+      display: flex;
+  }

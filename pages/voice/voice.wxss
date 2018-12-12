@@ -1,0 +1,35 @@
+/* pages/voice/voice.wxss */
+/*中间描述文字样式*/
+.centerContent{
+    margin-top: 20rpx;
+    width: 100%;
+    height: 600rpx;
+  }
+  /*浮动在图片上的view样式*/
+  .flexView{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 80rpx;
+  position: absolute;
+  z-index: 2;
+  top: 540rpx;
+  }
+  
+
+   /* 旋转的样式 */
+   .music_on{
+    animation: audio-rotate 8s linear infinite;
+  }
+  
+   /* 旋转动画 */
+@keyframes audio-rotate {
+    0% {
+      transform: rotateZ(0deg);
+    }
+   
+    100% {
+      transform: rotateZ(360deg);
+    }
+  }
